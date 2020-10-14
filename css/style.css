@@ -8,7 +8,7 @@ body{
 
 .inner{
     max-width: 660px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -56,4 +56,69 @@ header li{
 
 .subscribe{
     background-color: #FDF5ED;
+}
+
+.subscribe h2{
+    padding: 40px 0 30px;
+    color: #303030;
+    font-size: 26px;
+}
+
+.subscribe-article{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #707070;
+}
+
+.lorem{
+    padding-bottom: 40px;
+}
+
+.subscribe a{
+    padding: 20px 45px;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #FFBF9D;
+    text-decoration: none;
+    line-height: 1;
+}
+
+
+.address{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #303030;
+    padding: 5px 29px;
+    line-height: 1;
+}
+
+.address-email{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #303030;
+    padding: 5px 36px;
+    line-height: 1;
+}
+
+.address-tel{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #303030;
+    padding: 5px 43px;
+    line-height: 1;
+}
+
+.address-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-flex{
+    display: flex;
+}
+
+
+
+footer p{
+    text-align: center;
+    margin: 50px 0;
 }
